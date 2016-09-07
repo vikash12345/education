@@ -24,4 +24,11 @@
 // All that matters is that your final data is written to an SQLite database
 // called "data.sqlite" in the current working directory which has at least a table
 // called "data".
+
+
+
+require 'scraperwiki.php';
+require 'scraperwiki/simple_html_dom.php';
+$html = scraperwiki::scrape("http://pu.edu.pk/home/results_show/3272");
+echo $html;
 ?>
