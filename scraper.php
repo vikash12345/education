@@ -30,5 +30,13 @@
 require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
 $html = scraperwiki::scrape("http://pu.edu.pk/home/results_show/3272");
-echo $html;
+
+
+
+$roll_nuber = $dom->find("input[@name='roll_no']->innertext='1';
+
+echo $roll_number;
+
+
+
 ?>
